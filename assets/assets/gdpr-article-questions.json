@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "question": "Oggetto e finalità",
+      "answers": [
+        "Articolo 1",
+        "Articolo 13",
+        "Articolo 18",
+        "Articolo 43"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "",
+      "answers": [
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "correct_answer": 3
+    }
+  ]
+}
