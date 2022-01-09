@@ -51118,11 +51118,13 @@ B.b.q9(q.a)
 return A.a7(null,r)}})
 return A.a8($async$vA,r)}}
 A.LW.prototype={
-$2(a,b){var s,r,q=A.a([],t.s),p="Articolo "+(a+1)
-q.push(p)
-for(s=this.b,r=0;r<3;++r)q.push("Articolo "+(B.fD.Eu(s)+1))
-B.b.q9(q)
-this.a.a.push(new A.B1(b,q,B.b.ed(q,p)))},
+$2(a,b){var s,r,q,p,o=A.a([],t.s),n=a+1,m="Articolo "+n
+o.push(m)
+for(s=this.b,r=0;r<3;++r){q=!1
+do{p=B.fD.Eu(s)+1
+if(p!==n)q=!0}while(!q)
+o.push("Articolo "+p)}B.b.q9(o)
+this.a.a.push(new A.B1(b,o,B.b.ed(o,m)))},
 $S:305}
 A.B1.prototype={}
 A.xb.prototype={
